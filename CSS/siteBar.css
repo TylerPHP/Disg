@@ -1,0 +1,78 @@
+
+aside{
+	width: 15.85185185185185%;
+	float:left;
+	background-color: #F3F3F3;
+}
+/* ссылки навигации */
+nav a{
+	position: relative;
+	text-decoration: none;
+	  transition: .2s;
+	  color:#ACACAC;
+
+}
+nav .navFixed{
+	position:fixed;
+	font-family:RobotoRegular, sans-serif;
+}
+nav a:visited{
+	color:#ACACAC;
+}
+
+#navTop{
+	padding-top: 42px;
+	word-wrap: break-word;/* перенос строк при сжатии блока */
+	border-right: 0.5px solid #A7A7A7;
+	height: 7176px;	
+	font-size:100%;  
+
+}
+
+#navTop>p{
+	position: relative;
+	margin:0;
+}
+li{ 
+    margin-left: -13px;
+    padding: 20px 0px 16px 35px ;
+	list-style-type: none; /* Убираем маркеры */
+	font-size:100%; 
+	border-top: 1px solid #A7A7A7;
+	width: 135px;
+
+}
+#navTop ul{
+	margin-top: -12px;
+	font-family:Exo2Regular, sans-serif;
+	margin-left:30px; /* Отступ слева в браузере IE и Opera */
+	padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+
+}
+
+#navTop span{
+
+letter-spacing: -.5px;
+	padding-left: 28px;
+	font-family:RobotoRegular, sans-serif;
+}
+
+#ALRAYHAN{
+	letter-spacing: .6px;
+	padding-left: 30px;
+	font-family:Exo2Regular, sans-serif;
+	font-size: 23px;
+}
+
+.ilBorder{
+	padding-top: 42px;
+	border-top: none;
+}
+.navFixed .naviG{
+	position: relative;
+	border: 1px solid #9CB6F9;
+	width: 11px;
+	right: 19px;
+	bottom: 7px;
+	transition: .2s;
+}
